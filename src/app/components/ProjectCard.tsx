@@ -9,7 +9,7 @@ type ProjectCardProps = {
   description: string;
   techStack: string[];
   imageSrc: string;
-  link: string;
+  links: { name: string; url: string }[];
 };
 
 export const ProjectCard = ({
@@ -17,7 +17,7 @@ export const ProjectCard = ({
   description,
   techStack,
   imageSrc,
-  link,
+  links,
 }: ProjectCardProps) => {
   return (
     <div className="border-2 border-indigo-600 rounded-xl shadow-lg bg-gray-900 p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6 overflow-x-auto">
@@ -39,16 +39,23 @@ export const ProjectCard = ({
             ))}
           </ul>
 
-          <RippleButton className="mt-4 bg-gray-600 hover:bg-gray-700 text-white font-semibold px-4 py-0.5 rounded-2xl">
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              🔗 Link
-            </a>
-          </RippleButton>
+          <div className="flex flex-wrap gap-2 mb-0,5">
+            {links.map((link, index) => (
+              <RippleButton
+                key={index}
+                className="mt-4 bg-gray-600 hover:bg-gray-700 text-white font-semibold px-4 py-0.5 rounded-2xl"
+              >
+                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                  🔗 {link.name}
+                </a>
+              </RippleButton>
+            ))}
+          </div>
         </div>
 
         <div className="relative">
           <Safari
-            url={link.replace("https://", "").replace("www.", "")}
+            url={links[0].url.replace("https://", "").replace("www.", "")}
             className="size-full"
             imageSrc={imageSrc}
           />

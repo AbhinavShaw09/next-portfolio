@@ -5,7 +5,9 @@ const AboutMe = () => {
   return (
     <React.Fragment>
       <div className="pointer-events-none whitespace-pre-wrap text-left text-5xl font-semibold leading-none text-white my-5">
-        About Me
+        <h1 className="scroll-m-20 text-left text-5xl md:text-6xl font-extrabold tracking-tight text-balance">
+          About Me
+        </h1>
       </div>
       <div className="border-2 border-indigo-600 rounded-xl shadow-lg bg-gray-900 p-6 ">
         <TypingAnimation>Hello World ...</TypingAnimation>I&apos;m Abhinav Shaw
