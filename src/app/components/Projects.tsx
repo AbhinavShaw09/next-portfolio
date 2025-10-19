@@ -56,7 +56,7 @@ const Projects = () => {
         </h1>
       </div>
 
-      <div className="mb-20 space-y-10">
+      <div className="space-y-10">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
