@@ -2,7 +2,7 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 
 export function CardHoverEffect() {
   return (
-    <div className="max-w-5xl mx-auto px-8 border border-gray-800 rounded-lg shadow-lg bg-gray-900">
+    <div className="max-w-5xl mx-auto px-4 border border-gray-800 rounded-lg shadow-lg bg-gray-900">
       <HoverEffect items={Experience} />
     </div>
   );
@@ -13,7 +13,7 @@ export const Experience = [
     description:
       "Integrated Paytm gateway services for users to recieve the tractions from DukaanPay, added the blacklisting fraud users feature for the super admin, adding new features and maintaining the codebase.",
     role: "Backend Engineer",
-    date: "October 2024 - Present",
+    date: "October 2024 - November 2025",
     link: "https://mydukaan.io/",
   },
   {

@@ -22,7 +22,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 py-10 justify-items-start",
+        "grid grid-cols-1 py-4 justify-items-start",
         className
       )}
     >
@@ -35,7 +35,7 @@ export const HoverEffect = ({
           onMouseLeave={() => setHoveredIndex(null)}
         >
           <AnimatePresence>
-            {hoveredIndex === idx && (
+            {/* {hoveredIndex === idx && (
               <motion.span
                 className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
                 layoutId="hoverBackground"
@@ -49,9 +49,9 @@ export const HoverEffect = ({
                   transition: { duration: 0.15, delay: 0.2 },
                 }}
               />
-            )}
+            )} */}
           </AnimatePresence>
-          <Card className="border border-transparent group-hover:border-slate-700 transition-all duration-200 ease-in-out">
+          <Card className="border border-transparent group-hover:border-indigo-600/100 transition-all duration-200 ease-in-out">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
               <CardTitle className="my-0 mr-2">{item.title}</CardTitle>
               <span className="text-zinc-400 text-base font-normal sm:ml-2 sm:mt-0 mt-1">

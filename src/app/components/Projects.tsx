@@ -47,7 +47,7 @@ const projects = [
   },
 ];
 
-const ProjectsPage = () => {
+const Projects = () => {
   return (
     <React.Fragment>
       <div className="pointer-events-none whitespace-pre-wrap text-left text-5xl font-semibold leading-none text-white my-5">
@@ -72,4 +72,4 @@ const ProjectsPage = () => {
   );
 };
 
-export default ProjectsPage;
+export default Projects;
