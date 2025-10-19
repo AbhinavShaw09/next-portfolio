@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon, House, MailIcon, Hammer } from "lucide-react";
+import { CalendarIcon, House, MailIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
