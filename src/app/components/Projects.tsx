@@ -36,6 +36,16 @@ const projects = [
     ],
   },
   {
+    title: "Pollify",
+    description:
+      "Pollify is a real-time opinion polling platform that allows users to create polls, vote, like polls, and view live updates as other users interact. It’s designed to be fast, responsive, and engaging — enabling instant feedback and crowd-driven insights.",
+    techStack: ["FastApi", "NextJs", "Tanstack Query", "Shadcn", "Docker"],
+    imageSrc: "/post-page.png",
+    links: [
+      { name: "github", url: "https://github.com/AbhinavShaw09/pollify" },
+    ],
+  },
+  {
     title: "MadSocial",
     description:
       "This is a social media application built using Django, HTML and Bootstrap. Users can login/register, update data, post images, and like/comment on posts. It has a clean, responsive UI.",
