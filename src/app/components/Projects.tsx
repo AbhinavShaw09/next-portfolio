@@ -5,6 +5,17 @@ import React from "react";
 
 const projects = [
   {
+    title: "Pollify",
+    description:
+      "Pollify is a real-time opinion polling platform that allows users to create polls, vote, like polls, and view live updates as other users interact. It’s designed to be fast, responsive, and engaging — enabling instant feedback and crowd-driven insights.",
+    techStack: ["FastApi", "NextJs", "Tanstack Query", "Shadcn", "Docker"],
+    imageSrc: "/post-page.png",
+    links: [
+      { name: "🌎 link", url: "https://pollify.xyz/login" },
+      { name: "🔗 github", url: "https://github.com/AbhinavShaw09/pollify" },
+    ],
+  },
+  {
     title: "Syntra",
     description:
       "This is the full-stack e-commerce application built using Django, React, and Tailwind CSS. It features user authentication, product management, and a shopping cart system. It is split into a storefront, a seller front, and a backend.",
@@ -22,29 +33,20 @@ const projects = [
     imageSrc: "/syntra_store_front.png",
     links: [
       {
-        name: "storefront",
+        name: "🔗 storefront",
         url: "https://github.com/AbhinavShaw09/Syntra-StoreFront",
       },
       {
-        name: "sellerfront",
+        name: "🔗 sellerfront",
         url: "https://github.com/AbhinavShaw09/Syntra-SellerFront",
       },
       {
-        name: "backend",
+        name: "🔗 backend",
         url: "https://github.com/AbhinavShaw09/Syntra-Backend",
       },
     ],
   },
-  {
-    title: "Pollify",
-    description:
-      "Pollify is a real-time opinion polling platform that allows users to create polls, vote, like polls, and view live updates as other users interact. It’s designed to be fast, responsive, and engaging — enabling instant feedback and crowd-driven insights.",
-    techStack: ["FastApi", "NextJs", "Tanstack Query", "Shadcn", "Docker"],
-    imageSrc: "/post-page.png",
-    links: [
-      { name: "github", url: "https://github.com/AbhinavShaw09/pollify" },
-    ],
-  },
+
   {
     title: "MadSocial",
     description:
@@ -52,7 +54,7 @@ const projects = [
     techStack: ["Django", "Html/Css", "Sass", "Bootstrap"],
     imageSrc: "/home_page4.jpeg",
     links: [
-      { name: "github", url: "https://github.com/AbhinavShaw09/madSocial" },
+      { name: "🔗 github", url: "https://github.com/AbhinavShaw09/madSocial" },
     ],
   },
 ];

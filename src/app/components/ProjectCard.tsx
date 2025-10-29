@@ -32,7 +32,7 @@ export const ProjectCard = ({
             {techStack.map((tech) => (
               <li
                 key={tech}
-                className="bg-indigo-700/30 text-white rounded px-3 py-1 text-base"
+                className="bg-indigo-700/30 text-white rounded-xl px-3 py-1 text-base border-2 border-indigo-600 shadow-md hover:bg-indigo-700 hover:scale-105 transition-transform duration-200"
               >
                 {tech}
               </li>
@@ -43,10 +43,10 @@ export const ProjectCard = ({
             {links.map((link, index) => (
               <RippleButton
                 key={index}
-                className="mt-4 bg-gray-600 hover:bg-gray-700 text-white font-semibold px-4 py-0.5 rounded-2xl"
+                className="mt-4 bg-yellow-500 hover:bg-amber-500 text-black font-semibold px-4 py-0.5 rounded-2xl border-amber-400"
               >
                 <a href={link.url} target="_blank" rel="noopener noreferrer">
-                  🔗 {link.name}
+                  {link.name}
                 </a>
               </RippleButton>
             ))}

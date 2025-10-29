@@ -8,7 +8,7 @@ interface SkillProps {
 
 export function SkillComponent({ children }: { children: React.ReactNode }) {
   return (
-    <li className="bg-indigo-700/30 text-white rounded px-3 py-1 text-base">
+    <li className="bg-indigo-700/30 text-white rounded-xl px-3 py-1 text-base border-2 border-indigo-600 shadow-md hover:bg-indigo-700 hover:scale-105 transition-transform duration-200">
       {children}
     </li>
   );

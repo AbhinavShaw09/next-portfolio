@@ -11,7 +11,7 @@ export const Experience = [
   {
     title: "Dukaan®",
     description:
-      "Integrated Paytm gateway services for users to recieve the tractions from DukaanPay, added the blacklisting fraud users feature for the super admin, adding new features and maintaining the codebase.",
+      "Worked on integrating multiple payment gateways including Cashfree, Razorpay, Pay10 and Paytm into a Dukaan platform (DukaanPay) to enable seamless and secure user transactions. I also developed and maintained Shopify plugins, contributed to new feature development for WholeTruth Foods, and implemented a fraud prevention system that allowed super admins to identify and blacklist suspicious users. Additionally, I handled the entire development cycle independently — managing frontend, backend, and infrastructure to ensure smooth deployment and maintenance of the platform.",
     role: "Backend Engineer",
     date: "October 2024 - November 2025",
     link: "https://mydukaan.io/",
