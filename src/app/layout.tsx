@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { BottomDock } from "@/components/BottomDock";
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
+import React from "react";
 import "./globals.css";
+import { GridBackground } from "@/components/GridBackground";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,9 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
         <main className="flex flex-col items-center justify-top p-4 text-white min-h-screen">
+          <GridBackground />
           <div className="mt-4 md:max-w-4xl max-w-xl text-left text-md leading-relaxed text-gray-300 ">
             <ScrollProgress />
             {children}
