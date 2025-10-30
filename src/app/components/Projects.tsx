@@ -9,7 +9,7 @@ const projects = [
     description:
       "Pollify is a real-time opinion polling platform that allows users to create polls, vote, like polls, and view live updates as other users interact. It’s designed to be fast, responsive, and engaging — enabling instant feedback and crowd-driven insights.",
     techStack: ["FastApi", "NextJs", "Tanstack Query", "Shadcn", "Docker"],
-    imageSrc: "/post-page.png",
+    imageSrc: "/pollify.png",
     links: [
       { name: "🌎 link", url: "https://pollify.xyz/login" },
       { name: "🔗 github", url: "https://github.com/AbhinavShaw09/pollify" },
